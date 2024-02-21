@@ -1,0 +1,9 @@
+{
+    "start_date": "2023-01-30T00:00:00Z",
+    "end_date": "",
+    "login_customer_ids": [{"customerId": "8340649495", "loginCustomerId": "6475271286"}],
+    "oauth_client_id":"889536869374-eqruuc0bd1pssirbcu2vk5lrkr3sjfc3.apps.googleusercontent.com",
+    "oauth_client_secret":"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",
+    "refresh_token":"1//04deMq9JLHpPBCgYIARAAGAQSNwF-L9IrzCbvLQ3ZX029z6noW0rUep8Rd569daxXOF5ft-GMciHAHbsR91JbyGgE_3qHGxguqbo",
+    "developer_token":"mT-y0a7eg1v3-JA5mXcZyA"
+}

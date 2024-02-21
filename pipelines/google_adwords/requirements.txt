@@ -1,0 +1,5 @@
+pandas
+pendulum
+wheel
+google-ads
+snowflake

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "data-warehouse-362807",
+  "private_key_id": "4841766ca835a8ff858f5825b27d8d1ec68cbf50",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD4RN6VfJESqh+v\nSpPuLoOFTxCgGWAU0CKIcpfR25x0p6nWCF6yDfnYY9t3yovL1ZU1jsrhZMtYfRkt\n509EHDMXcDTz6SL/9AmTSYC4KiE0Glr38gX0ltf79vonmd0KPyKDMwmDBnJ9t9sZ\n76iwS0nDZYaOFfSS07inQvV1nR9jAtfTMlO2ox2/VsLPJKdfC1KrNC9+UgO6KvT9\n6sRnprMUWChp4+Ibz/cMYWOUP1z6a0+k/I2mInFTJjyvdvKj58oS1hQXdLSRVQ4e\nuUqBJfyf7ofb5MzGlqUOu51bGf/lt8j2K0Ld6Yu2Y1Rh3xWE3Fg+W/JlvxW+nC1F\nsnmPEjpfAgMBAAECggEAampCqfqRyFlJaX5i+BXR5AMm0ijuSR2Jn8jWkGo8nrf7\nETXXOSTKcdkjii40S7OJ2EITbhchHhXJBCcAj+YydBpxaBcHHITC0fIQjV/piYa+\ndUa1DMjXXTXYtb66wxiat3fZ3OKXkpGLBYv3V1F+FZXf3elFQuYjYPZPdhFaEbqf\nHsgkvjOZYAVL/KEhF31IXa50TTCOI+isrQ3K+DGjeg9g45GY4grRAvGSJyt5W91U\n7yke1aTG3Pn1AsQu4znte0k6laJMAJdbjv8NHIwyFIpBsKsOdq8QCXL676uMrxMG\nRvNN+hwuzbL5febrcj55lC4qzYCl9WQWpcPZZfntIQKBgQD8JU87r8JVSoPkPKFW\nShsKcqoH1QKahPFlkn34ky13z66tFHt5GI5eQhivq9dvAVY4/w6PI0vVbbRHXxSq\n3aXaCXbqmrPkBk5ULt0fuCXlOxHWuUZBSGdLwJN7ZPQb/iudJjYS/iNxh1eStjXA\nZNyb24DcgMUrrolCtA/EovFULwKBgQD8EGPCRvo7JmFDgt+i6b0KKPd+59i3li6q\nIgzOZmhNV67Elhkqnh7IpV682axbJ9YLf4j7q377BcMoRxrYR4MnlsZ/jdLHtp7o\nLJ8d1sIwRDTORVx9rfqmR7kAl46pdKHbgbceDc/9rbsoRL3s3jhnU4nsVPuh7Aoq\nzzfjkxuA0QKBgAtF178BYpzRkgf4NfZXpdHXwoZLHayu2OQDoqIkYloC7PpL+iE1\n2deY+OWRtzX9R0+RB6Oanl9SYkb2l0P0WN/goHJorDY7mfDlj3lFkFwpQejpq5xr\nkkKuv2k64DcILAcAmFZNCmSe+mlSwCBz4fEN5Tr2ftovGW/kAPh3mHZ9AoGBAOsU\nWgV5bqw1miZ9axakCVLtbA0mKx7k6LZxNSJVrdbb/LmJBwWRHEKiwB0+oRkOqPhm\nRBn7El0IPb9VuTqWT0JfwtZ5LWhm8AK2gtswTED5i4oIdD8eQBJN98MOldWCWeW/\nL0nPNfhvy4m9uqerhE0RQyNvCpMz8TOFuKj8rHzRAoGAZN5aPr4+qG0ea8khVgOv\nmEwl8gLJjOO5AoAWI+wtVqbYIIWHA6695VwnPvpDJ/KIgdWtmLPEhVoxh1unU8VP\nPFwa5L8Cu3UrEvzxSWsa8v8ex5nGUkSj4OZAtWG6xFX6I2tRlfWxKtHoQmbqqWS7\ntMcllmDwn0rmSYpxphax2AI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "campaignkart-gs-service-acc@data-warehouse-362807.iam.gserviceaccount.com",
+  "client_id": "106560520371511673430",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/campaignkart-gs-service-acc%40data-warehouse-362807.iam.gserviceaccount.com"
+}

@@ -1,0 +1,1768 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "ad_performance_report",
+      "stream": "ad_performance_report",
+      "schema": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "is_report": true,
+        "properties": {
+          "_sdc_record_hash": {
+            "type": "string"
+          },
+          "ad_group_id": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "ad_group_name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "ad_group_ad_status": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "campaign_id": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "campaign_name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "customer_id": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "customer_time_zone": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "absolute_top_impression_percentage": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "active_view_cpm": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "active_view_ctr": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "active_view_impressions": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "active_view_measurability": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "active_view_measurable_cost_micros": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "active_view_measurable_impressions": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "active_view_viewability": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "all_conversions": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "all_conversions_from_interactions_rate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "all_conversions_value": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "average_cost": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "average_cpc": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "average_cpe": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "average_cpm": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "average_cpv": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "average_page_views": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "average_time_on_site": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "bounce_rate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "clicks": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "conversions": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "conversions_from_interactions_rate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "conversions_value": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "cost_micros": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "cost_per_all_conversions": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "cost_per_conversion": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "cost_per_current_model_attributed_conversion": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "cross_device_conversions": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "ctr": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "current_model_attributed_conversions": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "current_model_attributed_conversions_value": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "engagement_rate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "engagements": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "gmail_forwards": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "gmail_saves": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "gmail_secondary_clicks": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "impressions": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "interaction_event_types": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "interaction_rate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "interactions": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "percent_new_visitors": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "top_impression_percentage": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "value_per_all_conversions": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "value_per_conversion": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "value_per_current_model_attributed_conversion": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "video_quartile_p100_rate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "video_quartile_p25_rate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "video_quartile_p50_rate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "video_quartile_p75_rate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "video_view_rate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "video_views": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "view_through_conversions": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "date": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected": true,
+            "inclusion": "automatic",
+            "table-key-properties": [
+              "_sdc_record_hash"
+            ],
+            "forced-replication-method": "INCREMENTAL",
+            "valid-replication-keys": [
+              "date"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_record_hash"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "behavior": "PRIMARY KEY"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ad_group_id"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "ad_group.id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ad_group_name"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "ad_group.name"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "ad_group_ad.ad.id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ad_group_ad_status"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "ad_group_ad.status"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "campaign_id"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "campaign.id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "campaign_name"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "campaign.name"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "customer_id"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "customer.id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "customer_time_zone"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "ATTRIBUTE",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "customer.time_zone"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "absolute_top_impression_percentage"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.absolute_top_impression_percentage"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "active_view_cpm"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.active_view_cpm"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "active_view_ctr"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.active_view_ctr"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "active_view_impressions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.active_view_impressions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "active_view_measurability"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.active_view_measurability"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "active_view_measurable_cost_micros"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.active_view_measurable_cost_micros"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "active_view_measurable_impressions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.active_view_measurable_impressions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "active_view_viewability"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.active_view_viewability"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "all_conversions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "month_of_year"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.all_conversions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "all_conversions_from_interactions_rate"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.all_conversions_from_interactions_rate"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "all_conversions_value"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "slot",
+              "month_of_year"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.all_conversions_value"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "average_cost"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.average_cost"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "average_cpc"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.average_cpc"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "average_cpe"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.average_cpe"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "average_cpm"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.average_cpm"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "average_cpv"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.average_cpv"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "average_page_views"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "device",
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.average_page_views"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "average_time_on_site"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "device",
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.average_time_on_site"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "bounce_rate"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "device",
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.bounce_rate"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "clicks"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.clicks"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "conversions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "month_of_year"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.conversions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "conversions_from_interactions_rate"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.conversions_from_interactions_rate"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "conversions_value"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "month_of_year"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.conversions_value"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cost_micros"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.cost_micros"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cost_per_all_conversions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.cost_per_all_conversions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cost_per_conversion"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.cost_per_conversion"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cost_per_current_model_attributed_conversion"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.cost_per_current_model_attributed_conversion"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cross_device_conversions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "slot",
+              "ad_destination_type"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.cross_device_conversions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ctr"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.ctr"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "current_model_attributed_conversions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "slot",
+              "month_of_year",
+              "ad_destination_type"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.current_model_attributed_conversions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "current_model_attributed_conversions_value"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "slot",
+              "month_of_year",
+              "ad_destination_type"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.current_model_attributed_conversions_value"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "engagement_rate"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.engagement_rate"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "engagements"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.engagements"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "gmail_forwards"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.gmail_forwards"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "gmail_saves"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.gmail_saves"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "gmail_secondary_clicks"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.gmail_secondary_clicks"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "impressions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.impressions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "interaction_event_types"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.interaction_event_types"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "interaction_rate"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.interaction_rate"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "interactions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "conversion_lag_bucket",
+              "conversion_action_name"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.interactions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "percent_new_visitors"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "device",
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.percent_new_visitors"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "top_impression_percentage"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.top_impression_percentage"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "value_per_all_conversions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "slot",
+              "month_of_year",
+              "ad_destination_type"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.value_per_all_conversions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "value_per_conversion"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "month_of_year",
+              "ad_destination_type"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.value_per_conversion"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "value_per_current_model_attributed_conversion"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "slot",
+              "month_of_year",
+              "ad_destination_type"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.value_per_current_model_attributed_conversion"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "video_quartile_p100_rate"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.video_quartile_p100_rate"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "video_quartile_p25_rate"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.video_quartile_p25_rate"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "video_quartile_p50_rate"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.video_quartile_p50_rate"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "video_quartile_p75_rate"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.video_quartile_p75_rate"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "video_view_rate"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.video_view_rate"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "video_views"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_action_category",
+              "conversion_or_adjustment_lag_bucket",
+              "conversion_action",
+              "external_conversion_source",
+              "click_type",
+              "month_of_year",
+              "conversion_lag_bucket",
+              "conversion_action_name",
+              "slot"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.video_views"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "view_through_conversions"
+          ],
+          "metadata": {
+            "fieldExclusions": [
+              "ad_destination_type",
+              "conversion_adjustment",
+              "conversion_or_adjustment_lag_bucket",
+              "click_type",
+              "month_of_year",
+              "conversion_lag_bucket"
+            ],
+            "behavior": "METRIC",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "metrics.view_through_conversions"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "date"
+          ],
+          "metadata": {
+            "fieldExclusions": [],
+            "behavior": "SEGMENT",
+            "inclusion": "automatic",
+            "tap-google-ads.api-field-names": [
+              "segments.date"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
